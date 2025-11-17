@@ -19,7 +19,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v3
         with:
-          images: pogiri1207-a11y/nodejs-ci
+          images: gilheejeong/nodejs-ci
           tag-semver: |
             {{version}}
 
